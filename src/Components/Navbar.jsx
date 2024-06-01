@@ -168,7 +168,7 @@ import {
         >
           <div class="hvr-wobble-horizontal">
             <Text cursor={"pointer"} onClick={() => scrollToSection(HomeSec)}>
-              <Link to="/">Home</Link>
+              <Link to="/">Prayer</Link>
             </Text>
           </div>
         </Box>
@@ -183,7 +183,7 @@ import {
         >
           <div class="hvr-wobble-horizontal">
             <Text cursor={"pointer"} onClick={() => scrollToSection(ServicesSec)}>
-              Services
+              Yoga
             </Text>
           </div>
         </Box>
@@ -198,7 +198,37 @@ import {
         >
           <div class="hvr-wobble-horizontal">
             <Text cursor={"pointer"} onClick={() => scrollToSection(ContactSec)}>
-              Contact
+              Bhakti
+            </Text>
+          </div>
+        </Box>
+        <Box
+          _hover={{
+            cursor: "pointer",
+            transition: "0.5s",
+            color: "#e7284a",
+          }}
+          p={"10px 20px 10px 20px"}
+          borderRadius={"10px"}
+        >
+          <div class="hvr-wobble-horizontal">
+            <Text cursor={"pointer"} onClick={() => scrollToSection(ServicesSec)}>
+              Yoga
+            </Text>
+          </div>
+        </Box>
+        <Box
+          _hover={{
+            cursor: "pointer",
+            transition: "0.5s",
+            color: "#e7284a",
+          }}
+          p={"10px 20px 10px 20px"}
+          borderRadius={"10px"}
+        >
+          <div class="hvr-wobble-horizontal">
+            <Text cursor={"pointer"} onClick={() => scrollToSection(ContactSec)}>
+              Meditation
             </Text>
           </div>
         </Box>

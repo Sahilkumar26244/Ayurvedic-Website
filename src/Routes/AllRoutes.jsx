@@ -4,6 +4,7 @@ import Home from '../Pages/Home'
 import About from '../Pages/About'
 import Contact from '../Pages/Contact'
 import Navbar from '../Components/Navbar'
+import Footer from '../Components/Footer'
 
 function AllRoutes() {
   return (
@@ -14,6 +15,7 @@ function AllRoutes() {
             <Route path='/about' element={<About/>} />
             <Route path='/contact'  element={<Contact/>} />
         </Routes>
+        <Footer/>
     </div>
   )
 }

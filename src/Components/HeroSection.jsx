@@ -115,7 +115,8 @@ function HeroSection() {
   }
 
   return (
-    <Box pt={{base:"100px",lg:"0px"}} mt={{ base: "250px", md: "200px", xl: "120px" }} w={"90%"} m={"auto"}>
+    <Box bg={"#ffefe2"}>
+    <Box pt={{base:"100px",lg:"150px"}} w={"90%"} m={"auto"}>
       {cards.length > 0 ? (
         <Carousel
           showThumbs={false}
@@ -141,6 +142,8 @@ function HeroSection() {
         </Box>
       )}
     </Box>
+    </Box>
+    
   );
 }
 

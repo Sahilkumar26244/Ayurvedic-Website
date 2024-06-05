@@ -4,8 +4,8 @@ import React from 'react'
 function WelcomeNotes() {
   return (
     <div>
-        <Box bg={"#ffefe2"}>
-        <Box w={{base:"90%",lg:"1300px"}} m={"auto"} pt={"80px"} >
+        <Box bg={"white"}>
+        <Box w={{base:"90%",lg:"1300px"}} m={"auto"} pt={"180px"} >
             <Flex direction={{base:"column",lg:"row"}} gap={"40px"} w={"85%"} m={"auto"}>
                 <Box w={{base:"100%",lg:"50%"}}>
                     <Box>

@@ -43,9 +43,7 @@ import {
           py={{ base: "10px", md: "24px", lg: "15px" }}
           borderBottom={1}
           align={"center"}
-          position="fixed" // Add sticky positioning
-          top={"0"} // Stick to the top of the viewport
-          zIndex="1000"
+          
           as="nav"
           w={"100%"}
           boxShadow={"rgba(149, 157, 165, 0.2) 0px 8px 24px"}
@@ -59,14 +57,14 @@ import {
             alignItems={"center"}
           >
   
-          <Box w={{base:"20%",lg:"15%"}} border={"1px solid"}>
+          <Box w={{base:"20%",lg:"20%"}}>
             <Image w={"100%"} h={"100%"} src={"https://courses.parmarth.org/wp-content/uploads/2023/09/PNSY.png"} />
           </Box>
   
   
-            <Flex border={"1px solid"}
+            <Flex
               
-              w={"40%"}
+              w={"55%"}
               justifyContent={"flex-start"}
               display={{ base: "none", md: "none", lg: "flex", xl: "flex" }}
             >
@@ -80,7 +78,7 @@ import {
               </Box>
             </Flex>
 
-            <Flex w={"20%"} border={"1px solid"} justifyContent={"space-between"} color={"#e7284a"} display={{ base: "none", md: "none", lg: "flex", xl: "flex" }}>
+            <Flex w={"20%"} justifyContent={"space-between"} color={"#e7284a"} display={{ base: "none", md: "none", lg: "flex", xl: "flex" }}>
                 <Box>
                     <Circle p={"15px"} bg={"#fdc566"} >
                         <FaFacebookF style={{fontSize:"20px"}}/>

@@ -57,7 +57,7 @@ function HeroSection() {
 
   const renderSlides = cards.map((image) => (
     <div className="parent" key={image.alt}>
-      <img className="sliderImg" src={image.image} alt={image.alt} />
+      <img  className="sliderImg" src={image.image} alt={image.alt} />
       <Box
         className="box text1"
         color="#d52121"
@@ -91,18 +91,7 @@ function HeroSection() {
         <></>
       ) : (
         <>
-          <Box
-            mt={{ base: "2%", md: "1%" }}
-            className="box text4"
-            _hover={{ color: "#d52121" }}
-            cursor={"pointer"}
-            fontSize={{ base: "", lg: "18px" }}
-            fontWeight={{ base: "500", lg: "600" }}
-            transition={"0.5s"}
-          >
-            <FaPlus className="faplus" />
-            Shop now
-          </Box>
+          
         </>
       )}
     </div>
@@ -115,8 +104,8 @@ function HeroSection() {
   }
 
   return (
-    <Box bg={"#ffefe2"}>
-    <Box pt={{base:"100px",lg:"150px"}} w={"90%"} m={"auto"}>
+    <Box bg={"linear-gradient(180deg, rgba(255,248,165,1) 0%, rgba(253,146,30,1) 100%)"} h={"500px"}>
+    <Box pt={{base:"100px",lg:"10px"}} w={"90%"} m={"auto"}>
       {cards.length > 0 ? (
         <Carousel
           showThumbs={false}

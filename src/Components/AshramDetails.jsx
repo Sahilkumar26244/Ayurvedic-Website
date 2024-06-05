@@ -30,27 +30,27 @@ function AshramDetails() {
   ];
   return (
     <div>
-      <Box bg={"#ffefe2"}>
-        <Box pt={"80px"}>
+      <Box bg={""}>
+        <Box pt={"180px"} pb={"80px"}>
           <Flex
-            w={{ base: "90%", lg: "1300px" }}
+            w={{ base: "90%", lg: "1250px" }}
             m={"auto"}
-            border={"1px solid"}
             gap={"50px"}
+            direction={{base:"column",lg:"row"}}
           >
             {ashramDetails.map((e, i) => (
               <>
                 
                   <Box className="hvr-float"
-                    w={"25%"}
-                    bg={"white"}
+                    w={{base:"100%",lg:"25%"}}
+                    bg={"#ffefe2"}
                     display={"flex"}
                     alignItems={"center"}
                     flexDirection={"column"}
                     gap={"20px"}
                     p={"62px 38px 72px"}
                     cursor={"pointer"}
-                    _hover={{color:"rgb(231, 40, 74)"}}
+                    _hover={{color:"rgb(231, 40, 74)",boxShadow:"1px 10px 61px 5px rgba(231,40,74,0.75)"}}
                     color={"rgb(136, 10, 31)"}
                   >
                     <Box w={"55%"} _hover={{w:"65%"}} transition={"all 0.3s ease"}>

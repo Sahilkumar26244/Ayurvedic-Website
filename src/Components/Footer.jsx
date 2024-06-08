@@ -4,7 +4,7 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <Box mt={"200px"} bg={"#880a1f"} color={"#FD8F8F"} fontWeight={500} p={"30px"}>
+      <Box bg={"#880a1f"} color={"#FD8F8F"} fontWeight={500} p={"30px"}>
         <Box w={{ base: "90%", lg: "1300px" }} m={"auto"} display={"flex"} flexDirection={"column"} gap={"40px"}>
           <Flex direction={{base:"column",lg:"row"}} justifyContent={"space-between"} w={"55%"} m={"auto"} alignItems={"center"} gap={{base:"20px",lg:"0px"}}>
             <Box>

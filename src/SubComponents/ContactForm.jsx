@@ -11,11 +11,11 @@ function ContactForm() {
                 </Box>
                 <Flex mt={"10px"} justifyContent={"space-between"} gap={"40px"} fontWeight={400} fontSize={"13px"} color={"rgb(207, 183, 179)"}>
                     <Box w={"50%"}>
-                        <Input borderRadius={"20px"} color={"#cba7a7"} bg={"#8c4e5d"} border={"1px solid #A76B7C"} />
+                        <Input borderRadius={"20px"} color={"#cba7a7"} bg={"#8c4e5d"} border={"1px solid #A76B7C"} p={"20px"} />
                         <Text>First Name *</Text>
                     </Box>
                     <Box w={"50%"}>
-                        <Input borderRadius={"20px"} color={"#cba7a7"} bg={"#8c4e5d"} border={"1px solid #A76B7C"}/>
+                        <Input borderRadius={"20px"} color={"#cba7a7"} bg={"#8c4e5d"} border={"1px solid #A76B7C"} p={"20px"} />
                         <Text>Last Name *</Text>
                     </Box>
                 </Flex>
@@ -26,11 +26,11 @@ function ContactForm() {
                 </Box>
                 <Flex mt={"10px"} justifyContent={"space-between"} gap={"40px"} fontWeight={400} fontSize={"13px"} color={"rgb(207, 183, 179)"}>
                     <Box w={"50%"}>
-                        <Input borderRadius={"20px"} color={"#cba7a7"} bg={"#8c4e5d"} border={"1px solid #A76B7C"} />
+                        <Input borderRadius={"20px"} color={"#cba7a7"} bg={"#8c4e5d"} border={"1px solid #A76B7C"} p={"20px"} />
                         <Text>Email *</Text>
                     </Box>
                     <Box w={"50%"}>
-                        <Input borderRadius={"20px"} color={"#cba7a7"} bg={"#8c4e5d"} border={"1px solid #A76B7C"}/>
+                        <Input borderRadius={"20px"} color={"#cba7a7"} bg={"#8c4e5d"} border={"1px solid #A76B7C"} p={"20px"}/>
                         <Text>Phone *</Text>
                     </Box>
                 </Flex>

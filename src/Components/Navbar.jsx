@@ -27,6 +27,7 @@ import {
   
   
   import { Link } from "react-router-dom";
+  import logo from "../assets/logo2.png"
   
   //#f76113
   
@@ -57,8 +58,10 @@ import {
             alignItems={"center"}
           >
   
-          <Box w={{base:"20%",lg:"20%"}}>
-            <Image w={"100%"} h={"100%"} src={"https://courses.parmarth.org/wp-content/uploads/2023/09/PNSY.png"} />
+          <Box w={{base:"20%",lg:"10%"}} >
+            <Link to='/'>
+              <Image w={"100%"} h={"100%"} src={logo} objectFit={"contain"} />
+            </Link>
           </Box>
   
   
@@ -165,8 +168,8 @@ import {
           borderRadius={"10px"}
         >
           <div class="hvr-wobble-horizontal">
-            <Text cursor={"pointer"} onClick={() => scrollToSection(HomeSec)}>
-              <Link to="/">Prayer</Link>
+            <Text cursor={"pointer"} >
+              <Link to="/prayer">Prayer</Link>
             </Text>
           </div>
         </Box>
@@ -180,8 +183,10 @@ import {
           borderRadius={"10px"}
         >
           <div class="hvr-wobble-horizontal">
-            <Text cursor={"pointer"} onClick={() => scrollToSection(ServicesSec)}>
+            <Text cursor={"pointer"}>
+              <Link to='/yoga'>
               Yoga
+              </Link>
             </Text>
           </div>
         </Box>
@@ -195,8 +200,10 @@ import {
           borderRadius={"10px"}
         >
           <div class="hvr-wobble-horizontal">
-            <Text cursor={"pointer"} onClick={() => scrollToSection(ContactSec)}>
+            <Text cursor={"pointer"}>
+              <Link to='/bhakti'>
               Bhakti
+              </Link>
             </Text>
           </div>
         </Box>
@@ -211,25 +218,13 @@ import {
         >
           <div class="hvr-wobble-horizontal">
             <Text cursor={"pointer"} onClick={() => scrollToSection(ServicesSec)}>
-              Yoga
+              <Link>
+              Mediation
+              </Link>
             </Text>
           </div>
         </Box>
-        <Box
-          _hover={{
-            cursor: "pointer",
-            transition: "0.5s",
-            color: "#e7284a",
-          }}
-          p={"10px 20px 10px 20px"}
-          borderRadius={"10px"}
-        >
-          <div class="hvr-wobble-horizontal">
-            <Text cursor={"pointer"} onClick={() => scrollToSection(ContactSec)}>
-              Meditation
-            </Text>
-          </div>
-        </Box>
+        
       </Flex>
     );
   };

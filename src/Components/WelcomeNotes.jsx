@@ -5,9 +5,10 @@ function WelcomeNotes() {
   return (
     <div>
         <Box bg={"white"}>
-        <Box w={{base:"90%",lg:"1300px"}} m={"auto"} pt={"180px"} >
+        <Box w={{base:"90%",lg:"1300px"}} m={"auto"} pt={"200px"} >
             <Flex direction={{base:"column",lg:"row"}} gap={"40px"} w={"85%"} m={"auto"}>
-                <Box w={{base:"100%",lg:"50%"}}>
+                
+                <Box w={{base:"100%",lg:"50%"}} data-aos="fade-right">
                     <Box>
                         <Text color={"rgb(253, 143, 143)"} fontSize={"13px"} fontWeight={600} letterSpacing={"2px"}>WELCOME HOME</Text>
                     </Box>
@@ -18,7 +19,9 @@ function WelcomeNotes() {
                         <Text color={"rgb(136, 10, 31)"} fontSize={"16px"} fontWeight={400}>Authentic. Traditional. Life-Transforming.</Text>
                     </Box>
                 </Box>
-                <Box w={{base:"100%",lg:"50%"}} display={"flex"} flexDirection={"column"} gap={"20px"} color={"rgb(136, 10, 31)"} fontWeight={400} fontSize={"16px"} lineHeight={"28px"} >
+                
+                
+                <Box w={{base:"100%",lg:"50%"}} display={"flex"} flexDirection={"column"} gap={"20px"} color={"rgb(136, 10, 31)"} fontWeight={400} fontSize={"16px"} lineHeight={"28px"} data-aos="fade-down">
                     <Box>
                         <Text>Live in an ashram environment, learn from living masters, and become a certified Yoga teacher.</Text>
                     </Box>

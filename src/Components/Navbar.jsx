@@ -44,7 +44,9 @@ import {
           py={{ base: "10px", md: "24px", lg: "15px" }}
           borderBottom={1}
           align={"center"}
-          
+          position={{base:"fixed",lg:"unset"}} // Add sticky positioning
+          top={"0"} // Stick to the top of the viewport
+          zIndex="1000"
           as="nav"
           w={"100%"}
           boxShadow={"rgba(149, 157, 165, 0.2) 0px 8px 24px"}
@@ -67,7 +69,7 @@ import {
   
             <Flex
               
-              w={"55%"}
+              w={"65%"}
               justifyContent={"flex-start"}
               display={{ base: "none", md: "none", lg: "flex", xl: "flex" }}
             >
@@ -150,11 +152,11 @@ import {
   const DesktopNav = ({ scrollToSection, HomeSec, ServicesSec, ContactSec }) => {
     return (
       <Flex
-        gap={"20px"}
+        gap={"5px"}
         fontWeight={600}
         color={"#fd921e"}
         letterSpacing={"1px"}
-        justifyContent={"space-around"}
+        justifyContent={"space-between"}
         alignItems={"center"}
         fontSize={{ base: "", lg: "15px" }}
       >
@@ -169,7 +171,7 @@ import {
         >
           <div class="hvr-wobble-horizontal">
             <Text cursor={"pointer"} >
-              <Link to="/prayer">Prayer</Link>
+              <Link to="/about">About</Link>
             </Text>
           </div>
         </Box>
@@ -201,8 +203,8 @@ import {
         >
           <div class="hvr-wobble-horizontal">
             <Text cursor={"pointer"}>
-              <Link to='/bhakti'>
-              Bhakti
+              <Link to='/lifeAsPrayer'>
+              Life As Prayer
               </Link>
             </Text>
           </div>
@@ -217,9 +219,45 @@ import {
           borderRadius={"10px"}
         >
           <div class="hvr-wobble-horizontal">
-            <Text cursor={"pointer"} onClick={() => scrollToSection(ServicesSec)}>
-              <Link>
-              Mediation
+            <Text cursor={"pointer"} >
+              <Link to='/news'>
+              News
+              </Link>
+            </Text>
+          </div>
+        </Box>
+
+        <Box
+          _hover={{
+            cursor: "pointer",
+            transition: "0.5s",
+            color: "#e7284a",
+          }}
+          p={"10px 20px 10px 20px"}
+          borderRadius={"10px"}
+        >
+          <div class="hvr-wobble-horizontal">
+            <Text cursor={"pointer"} >
+              <Link to='/reservations'>
+              Reservations
+              </Link>
+            </Text>
+          </div>
+        </Box>
+
+        <Box
+          _hover={{
+            cursor: "pointer",
+            transition: "0.5s",
+            color: "#e7284a",
+          }}
+          p={"10px 20px 10px 20px"}
+          borderRadius={"10px"}
+        >
+          <div class="hvr-wobble-horizontal">
+            <Text cursor={"pointer"}>
+              <Link to='/howYouCanHelp'>
+              How You Can Help
               </Link>
             </Text>
           </div>
@@ -282,10 +320,10 @@ import {
     return (
       <Stack
         boxShadow={"rgba(149, 157, 165, 0.2) 0px 8px 24px"}
-        bg={"#fb7832"}
+        bg={"#fff8a5"}
         p={4}
         display={{ md: "flex", xl: "none" }}
-        mt={{ base: "50px", md: "70px", lg: "76px" }}
+        mt={{ base: "80px", md: "70px", lg: "76px" }}
         position="fixed" // Add sticky positioning
         top={y} // Stick to the top of the viewport
         zIndex="1000"

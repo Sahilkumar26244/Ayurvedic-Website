@@ -3,10 +3,12 @@ import { Route, Routes } from 'react-router-dom'
 import Home from '../Pages/Home'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
-import PrayerPage from '../Pages/PrayerPage'
 import YogaPage from '../Pages/YogaPage'
-import BhaktiPage from '../Pages/BhaktiPage'
-import Meditation from '../Pages/Meditation'
+import About from '../Pages/About'
+import LifeAsPrayer from '../Pages/LifeAsPrayer'
+import News from '../Pages/News'
+import Reservations from '../Pages/Reservations'
+import Help from '../Pages/Help'
 
 function AllRoutes() {
   return (
@@ -14,10 +16,12 @@ function AllRoutes() {
         <Navbar/>
         <Routes>
             <Route path='/' element={<Home/>} />
-            <Route path='/prayer' element={<PrayerPage/>} />
-            <Route path='/yoga'  element={<YogaPage/>} />
-            <Route path='/bhakti'  element={<BhaktiPage/>} />
-            <Route path='/meditation'  element={<Meditation/>} />
+            <Route path='/about' element={<About/>} />
+            <Route path='/yoga'  element={<YogaPage/>} />   
+            <Route path='/lifeAsPrayer' element={<LifeAsPrayer/>} />
+            <Route path='/news' element={<News/>} />
+            <Route path='/reservations' element={<Reservations/>} />
+            <Route path='/howYouCanHelp' element={<Help/>} />  
         </Routes>
         <Footer/>
     </div>

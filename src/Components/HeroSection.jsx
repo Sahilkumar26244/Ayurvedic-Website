@@ -104,9 +104,12 @@ function HeroSection() {
   }
 
   return (
-    <Box bg={"linear-gradient(180deg, rgba(255,248,165,1) 0%, rgba(253,146,30,1) 100%)"} h={"500px"}>
-    <Box pt={{base:"100px",lg:"10px"}} w={"90%"} m={"auto"}>
+    
+    <Box bg={"linear-gradient(180deg, rgba(255,248,165,1) 0%, rgba(253,146,30,1) 100%)"} h={{base:"200px",lg:"500px"}}>
+    <Box pt={{base:"10px",lg:"10px"}} w={"90%"} m={"auto"}>
       {cards.length > 0 ? (
+        <div  data-aos="fade-down">
+        
         <Carousel
           showThumbs={false}
           showArrows={true}
@@ -120,6 +123,7 @@ function HeroSection() {
         >
           {renderSlides}
         </Carousel>
+        </div>
       ) : (
         <Box
           mt={"250px"}

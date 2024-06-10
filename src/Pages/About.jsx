@@ -4,7 +4,7 @@ import React from 'react'
 function About() {
   return (
     <div>
-        <Box bg={"#ffefe2"}>
+        <Box bg={"#ffefe2"} mt={{base:"90px",lg:"0px"}}>
             <Box position="relative" backgroundImage={"https://www.parmarth.org/wp-content/uploads/2021/11/about-banner.jpg"} backgroundSize={"cover"} h={{base:"50vh",lg:"50vh"}} backgroundAttachment={"fixed"}>
                 <Box position="absolute" top={0} left={0} right={0} bottom={0} bg="rgba(0, 0, 0, 0.5)" />
                 <Box display={"flex"} justifyContent={"center"} alignItems={"center"} h={"100%"}>

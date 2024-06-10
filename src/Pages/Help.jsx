@@ -1,6 +1,7 @@
 import { Box, Text } from "@chakra-ui/react";
 import React from "react";
 import Volunteer from "../SubComponents/Volunteer";
+import Donate from "../SubComponents/Donate";
 
 function Help() {
   return (
@@ -43,14 +44,16 @@ function Help() {
         <Box w={{ base: "90%", lg: "1200px" }}
         m={"auto"}
         pt={"50px"}
-        pb={"150px"}>
+        pb={"150px"} display={"flex"} flexDirection={"column"} gap={"40px"}>
           <Box>
-            <Text>Thank you for your interest in joining our initiatives to preserve India’s natural heritage and resurrect the state of Uttrakhand. Parmarth Niketan’s mission spans from restoring the beautiful Ganga River, holding medical camps, protecting the girl child, promoting education, to enforcing sanitation and hygiene habits.</Text>
+            <Text color={"rgb(105, 76, 92)"} textAlign={"center"} fontWeight={400} fontSize={{base:"12px",lg:"16px"}} lineHeight={"28px"}>Thank you for your interest in joining our initiatives to preserve India’s natural heritage and resurrect the state of Uttrakhand. Parmarth Niketan’s mission spans from restoring the beautiful Ganga River, holding medical camps, protecting the girl child, promoting education, to enforcing sanitation and hygiene habits.</Text>
           </Box>
-          <Box>
+          <Box bg={"white"} p={"30px"} >
             <Volunteer/>
           </Box>
-          <Box></Box>
+          <Box  p={"30px"} bg={"white"}>
+            <Donate/>
+          </Box>
         </Box>
       </Box>
     </div>

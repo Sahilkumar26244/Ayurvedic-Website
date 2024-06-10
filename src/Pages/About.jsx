@@ -27,6 +27,7 @@ function About() {
             justifyContent={"center"}
             alignItems={"center"}
             h={"100%"}
+            data-aos="fade-down"
           >
             <Text
               position="absolute"
@@ -45,7 +46,7 @@ function About() {
           pt={"50px"}
           pb={"150px"}
         >
-          <Box>
+          <Box data-aos="fade-down">
             <Text
               textAlign={"center"}
               color={"rgb(84, 0, 0)"}
@@ -68,7 +69,7 @@ function About() {
               flexDirection={"column"}
               gap={"20px"}
             >
-              <Box>
+              <Box data-aos="fade-right">
                 <Text
                   color={"rgb(105, 76, 92)"}
                   fontWeight={400}
@@ -86,7 +87,7 @@ function About() {
                   main road, just on the banks of the sacred Ganges River.
                 </Text>
               </Box>
-              <Box>
+              <Box data-aos="fade-right">
                 <Text
                   color={"rgb(153, 51, 102)"}
                   fontWeight={700}
@@ -125,7 +126,7 @@ function About() {
             flexDirection={"column"}
             gap={"20px"}
           >
-            <Box>
+            <Box data-aos="fade-down">
               <Text>
                 It is no surprise that pilgrims are drawn here from all over the
                 world. The awe-inspiring beauty of the ashram, the clear flowing
@@ -140,7 +141,7 @@ function About() {
                 the voice and the spirit of divine communion.
               </Text>
             </Box>
-            <Box>
+            <Box data-aos="fade-down">
               <Text>
                 The ashram is committed, as its name reflects, to the welfare of
                 all. Through numerous charitable programmes in the fields of
@@ -149,7 +150,7 @@ function About() {
                 the heart and spirit.{" "}
               </Text>
             </Box>
-            <Box>
+            <Box data-aos="fade-down">
               <Text>
                 The ashram offers daily activities of yoga, meditation, satsang,
                 universal prayers and its world-renowned Ganga Aarti at sunset.
@@ -157,7 +158,7 @@ function About() {
                 the Ashram premises as well as a charitable clinic/dispensary.
               </Text>
             </Box>
-            <Box>
+            <Box data-aos="fade-down">
               <Text>
                 There are frequent special cultural, spiritual and environmental
                 programmes given by revered spiritual leaders, acclaimed
@@ -166,7 +167,7 @@ function About() {
                 meaning and motto of Parmarth Niketan.
               </Text>
             </Box>
-            <Box>
+            <Box data-aos="fade-down">
               <Text>
                 Additionally, there are frequent camps in which pilgrims come
                 from across the world to partake in intensive courses on yoga,
@@ -193,7 +194,7 @@ function About() {
                 basis of race, gender, nationality, religion, caste or creed.
               </Text>
             </Box>
-            <Box>
+            <Box data-aos="fade-up">
               <Image
                 src="https://www.parmarth.org/wp-content/uploads/2021/11/about-banner.jpg"
                 w={"100%"}

@@ -29,6 +29,7 @@ function LifeAsPrayer() {
             justifyContent={"center"}
             alignItems={"center"}
             h={"100%"}
+            data-aos="fade-down"
           >
             <Text
               position="absolute"
@@ -54,7 +55,7 @@ function LifeAsPrayer() {
               alignItems={"flex-start"}
               justifyContent={"flex-start"}
             >
-              <Box>
+              <Box data-aos="fade-right">
                 <Image
                   w={"100%"}
                   h={"100%"}
@@ -107,7 +108,7 @@ function LifeAsPrayer() {
             </Box>
           </Flex>
 
-          <Box mt={"40px"}>
+          <Box mt={"40px"} data-aos="fade-down">
             <Text
               textAlign={"center"}
               fontWeight={400}

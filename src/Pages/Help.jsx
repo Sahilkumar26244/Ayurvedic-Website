@@ -29,6 +29,7 @@ function Help() {
             justifyContent={"center"}
             alignItems={"center"}
             h={"100%"}
+            data-aos="fade-down"
           >
             <Text
               position="absolute"

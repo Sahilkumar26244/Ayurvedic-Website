@@ -13,7 +13,7 @@ function LifeAsPrayer() {
             "https://www.parmarth.org/wp-content/uploads/2021/11/about-banner.jpg"
           }
           backgroundSize={"cover"}
-          h={{ base: "50vh", lg: "50vh" }}
+          h={{ base: "50vh", lg: "70vh" }}
           backgroundAttachment={"fixed"}
         >
           <Box

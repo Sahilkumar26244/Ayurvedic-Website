@@ -19,7 +19,7 @@ function ContactSection() {
                 <Box w={"100%"} display={"flex"} flexDirection={"column"} gap={"7px"}>
                     <Text data-aos="fade-down" letterSpacing={"3px"} textAlign={"center"} fontWeight={600} fontSize={"13px"} color={"rgb(253, 146, 30)"}>WELCOME HOME</Text>
                     <Text data-aos="fade-down" letterSpacing={"3px"} textAlign={"center"} fontWeight={700} fontSize={{base:"20px",lg:"50px"}} color={"white"}>Stay Connected</Text>
-                    <Text data-aos="fade-down" letterSpacing={"1px"} textAlign={"center"} fontWeight={400} fontSize={{base:"10px",lg:"16px"}} color={"rgb(207, 183, 179)"}>Stay connected with the Parmarth School of Yoga by submitting your information below:</Text>
+                    <Text data-aos="fade-down" letterSpacing={"1px"} textAlign={"center"} fontWeight={400} fontSize={{base:"10px",lg:"16px"}} color={"rgb(207, 183, 179)"}>Stay connected with the Pinaki Kedar Manav Sewa Trust by submitting your information below:</Text>
                     <Box w={{ base: "90%", lg: "1250px" }} m={"auto"} pt={"30px"}>
                         <ContactForm/>
                     </Box>

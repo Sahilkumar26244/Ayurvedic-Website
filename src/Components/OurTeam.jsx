@@ -1,4 +1,4 @@
-import { Box, Flex, Grid, Image, Text, position } from "@chakra-ui/react";
+import { Box, Grid, Text } from "@chakra-ui/react";
 import React from "react";
 import "../styles/teams.css"
 
@@ -12,45 +12,45 @@ function OurTeam() {
     },
     {
       image:
-        "https://courses.parmarth.org/wp-content/uploads/2023/09/abhaji.jpg",
-      name: "Sadhvi Abha Saraswatiji",
-      position: "Head of Yoga",
+        "https://courses.parmarth.org/wp-content/uploads/2023/09/sadhviji-bagawati.jpg",
+      name: "Sadhvi Bhagawati Saraswatiji",
+      position: "",
     },
     {
       image:
-        "https://courses.parmarth.org/wp-content/uploads/2023/09/abhaji.jpg",
-      name: "Sadhvi Abha Saraswatiji",
-      position: "Head of Yoga",
+        "https://courses.parmarth.org/wp-content/uploads/2023/09/Indu-Sharma-2.jpg",
+      name: "Dr. Indu Sharma",
+      position: "Resident Yoga Teacher",
     },
     {
       image:
-        "https://courses.parmarth.org/wp-content/uploads/2023/09/abhaji.jpg",
-      name: "Sadhvi Abha Saraswatiji",
-      position: "Head of Yoga",
+        "https://courses.parmarth.org/wp-content/uploads/2023/09/ganganandini.jpg",
+      name: "Ganga Nandini",
+      position: "Resident Yoga Teacher",
     },
     {
       image:
-        "https://courses.parmarth.org/wp-content/uploads/2023/09/abhaji.jpg",
-      name: "Sadhvi Abha Saraswatiji",
-      position: "Head of Yoga",
+        "https://courses.parmarth.org/wp-content/uploads/2023/09/78855723_10221374370367928_7688923403318722560_n.jpg",
+      name: "Krishnapriya",
+      position: "Resident Yoga Teacher",
     },
     {
       image:
-        "https://courses.parmarth.org/wp-content/uploads/2023/09/abhaji.jpg",
-      name: "Sadhvi Abha Saraswatiji",
-      position: "Head of Yoga",
+        "https://courses.parmarth.org/wp-content/uploads/2023/09/gayatriyogacharya.jpeg",
+      name: "Gayatri Yogacharya",
+      position: "Resident Yoga Teacher",
     },
     {
       image:
-        "https://courses.parmarth.org/wp-content/uploads/2023/09/abhaji.jpg",
-      name: "Sadhvi Abha Saraswatiji",
-      position: "Head of Yoga",
+        "https://courses.parmarth.org/wp-content/uploads/2023/09/tara.jpg",
+      name: "Tara Maniar",
+      position: "Visiting Teacher (Canada)",
     },
     {
       image:
-        "https://courses.parmarth.org/wp-content/uploads/2023/09/abhaji.jpg",
-      name: "Sadhvi Abha Saraswatiji",
-      position: "Head of Yoga",
+        "https://courses.parmarth.org/wp-content/uploads/2024/04/darshana-thumb.jpg",
+      name: "Darshana",
+      position: "Resident Meditation Teacher",
     },
   ];
   return (
@@ -86,21 +86,21 @@ function OurTeam() {
             gap={0}
             justifyContent={team.length % 3 == 2 ? "center" : "start"}
           >
-            {team.map((e) => (
+            {team.map((e,i) => (
               <>
-                <div class="container">
+                <div class="container" key={i}>
                   <div class="box">
                     <div class="imgBox">
                       <img
-                        src="https://img.freepik.com/free-photo/portrait-handsome-young-man-makes-okay-gesture-demonstrates-agreement-likes-idea-smiles-happily-wears-optical-glasses-yellow-hat-t-shirt-models-indoor-its-fine-thank-you-hand-sign_273609-30676.jpg?size=626&ext=jpg"
+                        src={e.image}
                         alt=""
                       />
                     </div>
                     <div class="content">
                       <h2>
-                        Karan Singh
+                        {e.name}
                         <br/>
-                        <span>Graphic Designer</span>
+                        <span>{e.position}</span>
                       </h2>
                     </div>
                   </div>

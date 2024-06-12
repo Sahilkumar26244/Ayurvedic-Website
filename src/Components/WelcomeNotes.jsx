@@ -13,7 +13,7 @@ function WelcomeNotes() {
                         <Text color={"rgb(253, 143, 143)"} fontSize={"13px"} fontWeight={600} letterSpacing={"2px"}>WELCOME HOME</Text>
                     </Box>
                     <Box w={"80%"}>
-                        <Text lineHeight={{base:"34px",lg:"60px"}} color={"rgb(231, 40, 74)"} fontSize={{base:"28px",lg:"50px"}} fontWeight={700}>Parmarth School of Yoga</Text>
+                        <Text lineHeight={{base:"34px",lg:"60px"}} color={"rgb(231, 40, 74)"} fontSize={{base:"28px",lg:"50px"}} fontWeight={700}>Pinaki Kedar Manav Sewa Trust</Text>
                     </Box>
                     <Box mt={"20px"}>
                         <Text color={"rgb(136, 10, 31)"} fontSize={"16px"} fontWeight={400}>Authentic. Traditional. Life-Transforming.</Text>

@@ -1,6 +1,7 @@
 import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import ReservationDetails from "../SubComponents/ReservationDetails";
+import ReservationForm from "../SubComponents/ReservationForm";
 
 function Reservations() {
   return (
@@ -74,6 +75,9 @@ function Reservations() {
           </Box>
           <Box mt={"70px"}>
             <ReservationDetails/>
+          </Box>
+          <Box mt={"70px"}>
+            <ReservationForm/>
           </Box>
         </Box>
       </Box>

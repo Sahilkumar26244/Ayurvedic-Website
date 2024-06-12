@@ -6,6 +6,25 @@ import { IoIosArrowForward } from "react-icons/io";
 
 function YogaSlider() {
 
+  const cources = [{
+    image:"https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718166634/pexels-ortal-6070517_oeebkk.jpg"
+  },
+  {
+    image:"https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718166634/pexels-cliff-booth-4056722_xalw1x.jpg"
+  },
+  {
+    image:"https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718166635/pexels-olia-danilevich-9004298_xxclip.jpg"
+  },
+  {
+    image:"https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718166635/pexels-elly-fairytale-3822166_v5uysl.jpg"
+  },
+  {
+    image:"https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718166636/pexels-rui-dias-469842-1472887_cmqett.jpg"
+  },
+  {
+    image:"https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718166780/pexels-olia-danilevich-9004309_afllgq.jpg"
+  }]
+
     const breakPoints = [
         { width: 1, itemsToShow: 1 },
         { width: 420, itemsToShow: 1 },
@@ -59,17 +78,19 @@ function YogaSlider() {
                 {type === "PREV" ? <IoIosArrowBack style={{fontSize:"40px"}} /> : <IoIosArrowForward/>}
               </div>
             )}>
-                <Box w={"100%"} h={"400px"}>
-                    <Image w={"100%"}
-                    h={"100%"}
-                    objectFit={"cover"} src='https://courses.parmarth.org/wp-content/uploads/2023/09/prayer-long-shot-1.jpg' />
-                </Box>
 
+              {cources.map((e,i) => (
+                <>
                 <Box w={"100%"} h={"400px"}>
                     <Image w={"100%"}
                     h={"100%"}
-                    objectFit={"cover"} src='https://courses.parmarth.org/wp-content/uploads/2023/09/prayer-long-shot-1.jpg' />
+                    objectFit={"cover"} src={e.image} />
                 </Box>
+                </>
+              ))}
+                
+
+                
             </Carousel>
         </Box>
     </div>

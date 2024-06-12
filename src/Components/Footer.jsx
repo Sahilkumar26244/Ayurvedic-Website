@@ -87,7 +87,7 @@ function Footer() {
               fontSize={"16px"}
               fontWeight={400}
             >
-              Copyright © Parmarth Niketan 2024. All Rights Reserved.
+              Copyright © Pinaki Kedar Manav Sewa Trust 2024. All Rights Reserved.
             </Text>
           </Box>
         </Box>

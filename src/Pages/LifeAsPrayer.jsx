@@ -60,7 +60,7 @@ function LifeAsPrayer() {
                   w={"100%"}
                   h={"100%"}
                   objectFit={"contain"}
-                  src="https://www.parmarth.org/wp-content/uploads/2022/02/aarti11-e1644962561240.jpg"
+                  src="https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718168165/sonika-agarwal-nriY_vxrmiw-unsplash_gyt8lr.jpg"
                 />
               </Box>
             </Box>

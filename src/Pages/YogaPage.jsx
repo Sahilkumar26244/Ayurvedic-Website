@@ -20,12 +20,12 @@ function YogaPage() {
                         </Box>
                     </Box>
                     <Box w={{base:"100%",lg:"30%"}}>
-                        <Image src='https://www.parmarth.org/wp-content/uploads/2022/02/WhatsApp-Image-2022-01-05-at-8.24.00-AM-e1645208314843.jpeg' />
+                        <Image src='https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718168043/amauri-mejia-n5trbdfW7fM-unsplash_vykccw.jpg' />
                     </Box>
                 </Flex>
                 <Flex mt={"50px"} gap={"40px"} direction={{base:"column",lg:"row"}}>
                     <Box w={{base:"100%",lg:"30%"}}>
-                        <Image w={"100%"} h={"100%"} objectFit={"contain"} src='https://www.parmarth.org/wp-content/uploads/2022/02/WhatsApp-Image-2022-01-05-at-8.25.12-AM-1024x682.jpeg' />
+                        <Image w={"100%"} h={"100%"} objectFit={"contain"} src='https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718168086/jose-vazquez-UUf5nxhEhAs-unsplash_o98ftz.jpg' />
                     </Box>
                     <Box w={"75%"}>
                         <Text color={"rgb(136, 10, 31)"} fontWeight={700} fontSize={"16px"} lineHeight={"28px"}>Yoga is a way of life; it is not removed from it. We do not need to feel disappointed or frustrated considering our limitations with regard to physical health; shape and size of the body; lack of time; lack of space or unavailability of a teacher. Yoga, in fact, is the means to overcome all these problems. Yoga includes every aspect of life. Yoga touches everything in life. All healing methods and meditations are part and parcel of Yoga. Yoga is like the sun itself, which brightens everything that comes into contact with it.</Text>

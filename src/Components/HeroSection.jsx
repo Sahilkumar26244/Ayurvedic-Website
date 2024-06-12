@@ -21,19 +21,19 @@ function HeroSection() {
   const cards = [
     {
       image:
-        "https://courses.parmarth.org/wp-content/uploads/2023/09/y-pn-yttc-certificate-1.jpg",
+        "https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718166244/pexels-prasanthinturi-1051838_oaguja.jpg",
     },
     {
         image:
-          "https://courses.parmarth.org/wp-content/uploads/2023/09/y-pn-yttc-certificate-1.jpg",
+          "https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718166244/pexels-vivek-mishra-375270-1003917_ihnig1.jpg",
       },
       {
         image:
-          "https://courses.parmarth.org/wp-content/uploads/2023/09/y-pn-yttc-certificate-1.jpg",
+          "https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718166244/pexels-spencer-selover-142259-775417_ixjnlh.jpg",
       },
       {
         image:
-          "https://courses.parmarth.org/wp-content/uploads/2023/09/y-pn-yttc-certificate-1.jpg",
+          "https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718166245/pexels-ricardosantanna-15276491_yb5rai.jpg",
       },
   ];
 
@@ -57,7 +57,9 @@ function HeroSection() {
 
   const renderSlides = cards.map((image) => (
     <div className="parent" key={image.alt}>
+      <Box w={"100%"} h={"600px"}>
       <img  className="sliderImg" src={image.image} alt={image.alt} />
+      </Box>
       <Box
         className="box text1"
         color="#d52121"

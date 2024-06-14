@@ -3,6 +3,7 @@ import MoveToTop from "./Components/MoveToTop";
 import AllRoutes from "./Routes/AllRoutes";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import ScrollToTop from "./Components/ScrollToTop";
 
 AOS.init({
   // Global settings:
@@ -34,6 +35,7 @@ function App() {
       <AllRoutes/>
       <MoveToTop/>
       </Box>
+      <ScrollToTop/>
     </div>
   );
 }

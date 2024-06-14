@@ -10,7 +10,7 @@ function Help() {
         <Box
           position="relative"
           backgroundImage={
-            "https://www.parmarth.org/wp-content/uploads/2021/11/about-banner.jpg"
+            "https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718337374/WhatsApp_Image_2024-06-14_at_00.33.42_b7d0a2e7_gpbamr.jpg"
           }
           backgroundSize={"cover"}
           h={{ base: "50vh", lg: "70vh" }}
@@ -47,7 +47,7 @@ function Help() {
         pt={"50px"}
         pb={"150px"} display={"flex"} flexDirection={"column"} gap={"40px"}>
           <Box>
-            <Text color={"rgb(105, 76, 92)"} textAlign={"center"} fontWeight={400} fontSize={{base:"12px",lg:"16px"}} lineHeight={"28px"}>Thank you for your interest in joining our initiatives to preserve India’s natural heritage and resurrect the state of Uttrakhand. Parmarth Niketan’s mission spans from restoring the beautiful Ganga River, holding medical camps, protecting the girl child, promoting education, to enforcing sanitation and hygiene habits.</Text>
+            <Text color={"rgb(105, 76, 92)"} textAlign={"center"} fontWeight={400} fontSize={{base:"12px",lg:"16px"}} lineHeight={"28px"}>Thank you for your interest in joining our initiatives to preserve India’s natural heritage and resurrect the state of Uttrakhand. Pinaki Kedar Manav Sewa Trust’s mission spans from restoring the beautiful Ganga River, holding medical camps, protecting the girl child, promoting education, to enforcing sanitation and hygiene habits.</Text>
           </Box>
           <Box bg={"white"} p={"30px"} >
             <Volunteer/>

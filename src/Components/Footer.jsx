@@ -74,7 +74,7 @@ function Footer() {
                 </Link>
               </Box>
               <Box>
-                <Link to="/help">
+                <Link to="/howYouCanHelp">
                   <Text>How You Can Help</Text>
                 </Link>
               </Box>

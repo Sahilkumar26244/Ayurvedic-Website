@@ -41,7 +41,7 @@ function News() {
         <Box
           position="relative"
           backgroundImage={
-            "https://www.parmarth.org/wp-content/uploads/2021/11/about-banner.jpg"
+            "https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718337373/WhatsApp_Image_2024-06-13_at_18.47.24_cb374df2_yvxif0.jpg"
           }
           backgroundSize={"cover"}
           h={{ base: "50vh", lg: "70vh" }}

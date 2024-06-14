@@ -10,7 +10,7 @@ function LifeAsPrayer() {
         <Box
           position="relative"
           backgroundImage={
-            "https://www.parmarth.org/wp-content/uploads/2021/11/about-banner.jpg"
+            "https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718337370/WhatsApp_Image_2024-06-13_at_18.47.24_e6f3e0c3_vmltpb.jpg"
           }
           backgroundSize={"cover"}
           h={{ base: "50vh", lg: "70vh" }}
@@ -87,7 +87,7 @@ function LifeAsPrayer() {
                   fontSize={"16px"}
                   lineHeight={"28px"}
                 >
-                  The daily activities at Parmarth Niketan are listed below:{" "}
+                  The daily activities at Pinaki Kedar Manav Sewa Trust are listed below:{" "}
                 </Text>
               </Box>
               <Box mt={"5px"}>

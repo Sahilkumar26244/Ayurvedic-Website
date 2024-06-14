@@ -4,39 +4,39 @@ import React from "react";
 function AnnualEventGallery() {
   const annualEvents = [
     {
-      image: "https://www.parmarth.org/wp-content/uploads/2022/08/aarti-ghat-wideangle.jpg",
+      image: "https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718337370/WhatsApp_Image_2024-06-13_at_18.47.24_2ffa0baa_ehbnck.jpg",
       text: "",
     },
     {
-        image: "https://www.parmarth.org/wp-content/uploads/2022/08/aarti-Pujya-Swamiji-close-up.jpg",
+        image: "https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718337370/WhatsApp_Image_2024-06-13_at_18.47.24_54beb34b_folxuu.jpg",
         text: "",
       },
       {
-        image: "https://www.parmarth.org/wp-content/uploads/2022/08/aarti-sankirtan.jpg",
+        image: "https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718337372/WhatsApp_Image_2024-06-13_at_18.47.24_900b35ba_lrvntw.jpg",
         text: "",
       },
       {
-        image: "https://www.parmarth.org/wp-content/uploads/2022/08/actual-aarti-wide-angle.jpg",
+        image: "https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718337372/WhatsApp_Image_2024-06-13_at_18.47.24_5361d528_aimttr.jpg",
         text: "",
       },
       {
-        image: "https://www.parmarth.org/wp-content/uploads/2022/08/aarti-ghat-wideangle.jpg",
+        image: "https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718337373/WhatsApp_Image_2024-06-13_at_18.47.24_cb374df2_yvxif0.jpg",
         text: "",
       },
       {
-          image: "https://www.parmarth.org/wp-content/uploads/2022/08/aarti-Pujya-Swamiji-close-up.jpg",
+          image: "https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718337372/WhatsApp_Image_2024-06-13_at_18.47.24_8173f78f_rdkhyn.jpg",
           text: "",
         },
         {
-          image: "https://www.parmarth.org/wp-content/uploads/2022/08/aarti-sankirtan.jpg",
+          image: "https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718337374/WhatsApp_Image_2024-06-14_at_00.33.42_3c5b0a7f_jzmocx.jpg",
           text: "",
         },
         {
-          image: "https://www.parmarth.org/wp-content/uploads/2022/08/actual-aarti-wide-angle.jpg",
+          image: "https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718337374/WhatsApp_Image_2024-06-14_at_00.33.42_b7d0a2e7_gpbamr.jpg",
           text: "",
         },
       {
-        image: "https://www.parmarth.org/wp-content/uploads/2022/08/aarti-sankirtan.jpg",
+        image: "https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718337370/WhatsApp_Image_2024-06-13_at_18.47.24_23b497fe_mbieaz.jpg",
         text: "",
       },
   ];

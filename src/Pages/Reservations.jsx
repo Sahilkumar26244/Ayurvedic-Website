@@ -10,7 +10,7 @@ function Reservations() {
         <Box
           position="relative"
           backgroundImage={
-            "https://www.parmarth.org/wp-content/uploads/2021/11/about-banner.jpg"
+            "https://res.cloudinary.com/dmzzzl5jj/image/upload/v1718337370/WhatsApp_Image_2024-06-13_at_18.47.24_d8f1f38b_sc2omv.jpg"
           }
           backgroundSize={"cover"}
           h={{ base: "50vh", lg: "70vh" }}

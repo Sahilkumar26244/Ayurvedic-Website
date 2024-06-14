@@ -10,12 +10,12 @@ function AshramDetails() {
     {
       logo: one,
       title: "The Ashram",
-      desc: "The daily activities at Parmarth Niketan include morning universal prayers, daily yoga and meditation classes, daily satsang and lecture programs, kirtan, the world-renowned Ganga Aarti at sunset.",
+      desc: "The daily activities at Pinaki Kedar Manav Sewa Trust include morning universal prayers, daily yoga and meditation classes, daily satsang and lecture programs, kirtan, the world-renowned Ganga Aarti at sunset.",
     },
     {
       logo: two,
       title: "Pujya Swamiji",
-      desc: "Learn more about H.H. Pujya Swami Chidanand Saraswatiji, President of Parmarth Niketan, and his teachings. Pujya Swamiji’s motto in life is, “In the Service of God and humanity.",
+      desc: "Learn more about H.H. Pujya Swami Chidanand Saraswatiji, President of Pinaki Kedar Manav Sewa Trust, and his teachings. Pujya Swamiji’s motto in life is, “In the Service of God and humanity.",
     },
     {
       logo: three,

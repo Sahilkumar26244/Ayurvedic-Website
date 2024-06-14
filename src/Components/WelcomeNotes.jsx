@@ -26,10 +26,10 @@ function WelcomeNotes() {
                         <Text>Live in an ashram environment, learn from living masters, and become a certified Yoga teacher.</Text>
                     </Box>
                     <Box>
-                        <Text>Yoga at Parmarth Niketan Ashram is holistic and spiritually oriented, as taught by the rishis and sages.</Text>
+                        <Text>Yoga at Pinaki Kedar Manav Sewa Trust is holistic and steeped in spiritual teachings passed down by rishis and sages.</Text>
                     </Box>
                     <Box>
-                        <Text>Discover the true meaning of Yoga and let it deeply transform you. Get to know the culture, Vedic mantras and healing meditation. Take part in traditional ceremonies and celebrations, and become empowered personally and spiritually.</Text>
+                        <Text>Explore the profound meaning of Yoga and experience its transformative power. Immerse yourself in the culture, Vedic mantras, and healing meditations. Engage in traditional ceremonies and celebrations, and find personal and spiritual empowerment.</Text>
                     </Box>
                 </Box>
             </Flex>
